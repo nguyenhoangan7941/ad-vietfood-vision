@@ -1,8 +1,8 @@
 import streamlit as st
 import numpy as np
 import base64
-from keras.models import load_model
-from keras.utils import img_to_array
+from tensorflow.keras.models import load_model
+from tensorflow.keras.utils import img_to_array
 from PIL import Image
 
 # =========================
