@@ -330,7 +330,7 @@ st.markdown(
 
 @st.cache_resource
 def load_food_model():
-    model = load_model("final_foodmodel.h5")
+    model = load_model("final_foodmodel.h5", compile=False)
     return model
 
 model = load_food_model()
